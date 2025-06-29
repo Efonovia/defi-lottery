@@ -44,3 +44,7 @@ typechain-types
 #Hardhat files
 cache
 artifacts
+
+RNGSEP.sol
+Lock.js
+Lock.sol
