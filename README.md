@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Defi Lottery System
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates a blockchain lottery project using Hardhat. It comes with the Lottery smart contract, aswell as a test for that contract.
 
 Try running some of the following tasks:
 
