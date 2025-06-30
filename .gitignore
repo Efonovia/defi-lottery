@@ -45,6 +45,5 @@ typechain-types
 cache
 artifacts
 
-RNGSEP.sol
-Lock.js
+test/Lock.js
 Lock.sol

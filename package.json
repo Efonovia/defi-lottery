@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "setup": "hardhat run scripts/setup.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify:sepolia": "hardhat run scripts/verify.js --network sepolia"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +16,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.0.0",
-    "hardhat": "^2.25.0"
+    "hardhat": "^2.25.0",
+    "dotenv": "^16.3.1"
   },
   "dependencies": {
     "@chainlink/contracts": "^1.4.0",
